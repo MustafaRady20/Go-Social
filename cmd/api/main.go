@@ -16,7 +16,7 @@ func init() {
 	}
 
 	viper.SetDefault("ADDR", ":8080")
-	viper.SetDefault("DB_ADDR", "postgres://postgres:postgres@localhost/social?sslmode=disable")
+	viper.SetDefault("DB_ADDR", "postgres://user:password@localhost/social?sslmode=disable")
 	viper.SetDefault("MAX_IDLE_CONNS", 30)
 	viper.SetDefault("MAX_OPEN_CONNS", 30)
 	viper.SetDefault("MAX_IDLE_TIME", "30m")
